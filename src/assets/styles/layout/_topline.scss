@@ -1,0 +1,71 @@
+.main_topline {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 84px;
+  align-items: flex-end;
+  .main_topline-name {
+    flex-basis: 160px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .main_topline-view_switch {
+    flex-basis: 67px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-bottom: 16px;
+    .view_switch-list {
+      cursor: pointer;
+      width: 18px;
+      height: 18px;
+      //background: url("/src/assets/img/icon_plitka_.png") no-repeat;
+      margin-right: auto;
+      padding-right: 16px;
+      border-right: 1px solid $grey;
+    }
+    .view_switch-plitka {
+      cursor: pointer;
+      width: 18px;
+      height: 18px;
+      //background: url("/src/assets/img/icon_plitka_.png") no-repeat;
+      //padding-left: 15px;
+      margin-left: auto;
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1200px) {
+
+  .main_topline {
+    margin: 0 auto;
+    max-width: 990px;
+  }
+
+}
+
+@media only screen and (max-width: 990px) {
+
+  .main_topline {
+    //padding: 0 20px;
+    margin: 0 auto;
+    max-width: 768px;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 768px) {
+  .main_topline {
+    height: 56px;
+    .main_topline-name {
+      font-size: 18px;
+      padding: 0 20px;
+    }
+    .main_topline-view_switch {
+      display: none;
+    }
+  }
+}

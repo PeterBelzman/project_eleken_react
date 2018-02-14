@@ -1,0 +1,130 @@
+.table_head {
+  display: flex;
+  height: 25px;
+  padding-top: 31px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  color: $platinum;
+  border-top: 1px solid $grey;
+
+  .table_head-company {
+    flex-basis: 180px;
+  }
+  .table_head-covering {
+    flex-basis: 114px;
+  }
+  .table_head-type {
+    flex-basis: 107px;
+  }
+  .table_head-metal {
+    flex-basis: 175px;
+  }
+  .table_head-drugs {
+    flex-basis: 88px;
+  }
+  .table_head-visits {
+    flex-basis: 115px;
+  }
+  .table_head-deduct {
+    flex-basis: 119px;
+  }
+  .table_head-price {
+    flex-basis: 119px;
+  }
+  .table_head-btn {
+    flex-basis: 183px;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  .table_head {
+    //display: flex;
+    //height: 25px;
+    padding-top: 31px;
+    font-size: 10px;
+    //text-transform: uppercase;
+    //font-weight: 700;
+    //letter-spacing: 0.75px;
+    //color: $platinum;
+    //border-top: 1px solid $grey;
+
+    .table_head-company {
+      flex-basis: 170px;
+    }
+    .table_head-covering {
+      flex-basis: 114px;
+    }
+    .table_head-type {
+      flex-basis: 107px;
+    }
+    .table_head-metal {
+      flex-basis: 165px;
+    }
+    .table_head-drugs {
+      flex-basis: 83px;
+    }
+    .table_head-visits {
+      flex-basis: 110px;
+    }
+    .table_head-deduct {
+      flex-basis: 114px;
+    }
+    .table_head-price {
+      flex-basis: 119px;
+    }
+    .table_head-btn {
+      flex-basis: 218px;
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .table_head {
+    //display: flex;
+    //height: 25px;
+    padding-top: 31px;
+    font-size: 8px;
+    //text-transform: uppercase;
+    //font-weight: 700;
+    //letter-spacing: 0.75px;
+    //color: $platinum;
+    //border-top: 1px solid $grey;
+
+    .table_head-company {
+      flex-basis: 145px;
+    }
+    .table_head-covering {
+      flex-basis: 65px;
+    }
+    .table_head-type {
+      flex-basis: 60px;
+    }
+    .table_head-metal {
+      flex-basis: 120px;
+    }
+    .table_head-drugs {
+      flex-basis: 45px;
+    }
+    .table_head-visits {
+      flex-basis: 70px;
+    }
+    .table_head-deduct {
+      flex-basis: 75px;
+    }
+    .table_head-price {
+      flex-basis: 70px;
+    }
+    .table_head-btn {
+      flex-basis: 115px;
+    }
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .table_head {
+    display: none;
+  }
+}

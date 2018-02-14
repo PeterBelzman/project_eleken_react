@@ -1,0 +1,18 @@
+
+
+@import './assets/styles/utils/_variables.scss';
+@import './assets/styles/utils/_normalize.scss';
+//@import 'utils/mixins.scss';
+
+//_base
+@import './assets/styles/layout/_fonts.scss';
+
+//_layout
+@import './assets/styles/layout/_general.scss';
+@import './assets/styles/layout/_header.scss';
+@import './assets/styles/layout/_topline.scss';
+@import './assets/styles/layout/_tablehead.scss';
+@import './assets/styles/layout/_content.scss';
+@import './assets/styles/layout/_content_x_992.scss';
+@import './assets/styles/layout/_content_x_768.scss';
+@import './assets/styles/layout/_footer.scss';

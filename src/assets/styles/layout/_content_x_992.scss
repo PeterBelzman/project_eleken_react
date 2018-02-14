@@ -1,0 +1,165 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1200px) {
+
+  .main_table {
+    margin: 0 auto;
+    max-width: 990px;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  .main_table {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+
+  .insure_card {
+    //display: flex;
+    //align-items: center;
+    //width: 100%;
+    //height: 80px;
+    //margin: 0 auto;
+    //border-bottom: 1px solid $grey;
+    //font-size: 14px;
+    font-size: 12px;
+    //font-weight: 400;
+    //------------------------------------------------ row #1
+    .insure_card-company {
+      display: flex;
+      flex-basis: 145px;
+      //text-transform: capitalize;
+      align-items: center;
+      .company_logo {
+        margin-right: 17px;
+      }
+      .company {
+        display: flex;
+        flex-direction: column;
+        .company_name {
+          text-transform: capitalize;
+        }
+        .company_stars {
+          & .star {
+            &:before {
+              content: "\2605";
+              color: $yellow;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    //------------------------------------------------ row #2
+    .insure_card-covering {
+      flex-basis: 65px;
+      //text-transform: capitalize;
+    }
+    //------------------------------------------------ row #3
+    .insure_card-type {
+      display: flex;
+      align-items: center;
+      flex-basis: 60px;
+      p {
+        text-transform: uppercase;
+        padding-right: 5px;
+      }
+      .circle {
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+        &.circle_question {
+          background-color: $light-blue;
+          color: $blue;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+        }
+      }
+    }
+    //------------------------------------------------ row #4
+    .insure_card-metal {
+      display: flex;
+      align-items: center;
+      flex-basis: 120px;
+      p {
+        text-transform: capitalize;
+        padding: 0 5px;
+      }
+      .circle {
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+        &.circle_question {
+          background-color: $light-blue;
+          color: $blue;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+        }
+        &.circle_color {
+          background-color: $platinum;
+        }
+      }
+    }
+    //------------------------------------------------ row #5
+    .insure_card-drugs {
+      flex-basis: 45px;
+    }
+    //------------------------------------------------ row #6
+    .insure_card-visits {
+      flex-basis: 70px;
+    }
+    //------------------------------------------------ row #7
+    .insure_card-deduct {
+      flex-basis: 75px;
+    }
+    //------------------------------------------------ row #8
+    .insure_card-price {
+      flex-basis: 70px;
+    }
+    //------------------------------------------------ row #9
+    .insure_card-btn {
+      //display: flex;
+      //flex-basis: 183px;
+      flex-basis: 115px;
+      //text-transform: uppercase;
+      //font-size: 10px;
+      //text-align: center;
+      //letter-spacing: 1pt;
+      .btn_overview {
+        //background-color: $white;
+        //width: 106px;
+        width: 70px;
+        //height: 30px;
+        //border: 1px solid $grey;
+        //border-radius: 4px;
+        //line-height: 30px;
+        //margin-right: 5px;
+        //cursor: pointer;
+        a {
+          //color: $blue;
+        }
+      }
+      .btn_buy {
+        //background-color: $blue;
+        //width: 68px;
+        width: 40px;
+        //height: 30px;
+        //border-radius: 4px;
+        //border: 1px solid $blue;
+        //line-height: 30px;
+        //cursor: pointer;
+        a {
+          //color: $white;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
