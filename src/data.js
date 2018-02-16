@@ -1,3 +1,4 @@
+
 import logo1 from './assets/img/logo1.jpg';
 import logo2 from './assets/img/logo2.jpg';
 import logo3 from './assets/img/logo3.jpg';
@@ -28,10 +29,43 @@ export const metals = {
     }
 };
 
-export const data = [
+export const classNamesInRow = {
+    insureCard: "insure_card",
+    insureCardCompanyTab: "insure_card-company",
+    companyLogoTab: "company_logo",
+    coveringTab: "insure_card-covering",
+    typeTab: "insure_card-type",
+    metalSwitchTab: "insure_card-metal",
+    drugsTab: "insure_card-drugs",
+    visitsTab: "insure_card-visits",
+    deductTab: "insure_card-deduct",
+    priceTab: "insure_card-price",
+    btnTab: "insure_card-btn",
+    btnOverview: "btn_overview",
+    btnBuy: "btn_buy"
+};
+
+export const  classNamesInColumn = {
+    insureCard: "insure_card_switch",
+    insureCardCompanyTab: "insure_card-company_switch",
+    companyLogoTab: "company_logo_switch",
+    coveringTab: "insure_card-covering_switch",
+    typeTab: "insure_card-type_switch",
+    metalSwitchTab: "insure_card-metal_switch",
+    drugsTab: "insure_card-drugs_switch",
+    visitsTab: "insure_card-visits_switch",
+    deductTab: "insure_card-deduct_switch",
+    priceTab: "insure_card-price_switch",
+    btnTab: "insure_card-btn_switch",
+    btnOverview: "btn_overview_switch",
+    btnBuy: "btn_buy_switch"
+};
+
+
+export const baseStringData = [
     {
         logo: logo1,
-        // stars: 3,
+        stars: 5,
         company: "insurcom",
         covering: "Health",
         type: "ppo",
@@ -43,6 +77,7 @@ export const data = [
     },
     {
         logo: logo2,
+        stars: 3,
         company: "health ins",
         covering: "All-in-one",
         type: "hmo",
@@ -54,6 +89,7 @@ export const data = [
     },
     {
         logo: logo3,
+        stars: 4,
         company: "dentalife",
         covering: "Dental",
         type: "epo",
@@ -65,6 +101,7 @@ export const data = [
     },
     {
         logo: logo1,
+        stars: 5,
         company: "insurcom",
         covering: "Vision",
         type: "pos",
@@ -76,6 +113,7 @@ export const data = [
     },
     {
         logo: logo4,
+        stars: 5,
         company: "medicon",
         covering: "Health",
         type: "ppo",
@@ -87,6 +125,7 @@ export const data = [
     },
     {
         logo: logo2,
+        stars: 3,
         company: "health ins",
         covering: "Dental",
         type: "pos",
@@ -98,6 +137,7 @@ export const data = [
     },
     {
         logo: logo1,
+        stars: 5,
         company: "insurcom",
         covering: "Health",
         type: "hmo",
@@ -109,6 +149,7 @@ export const data = [
     },
     {
         logo: logo4,
+        stars: 5,
         company: "medicon",
         covering: "All-in-one",
         type: "epo",

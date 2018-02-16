@@ -42,11 +42,12 @@
         text-transform: capitalize;
       }
       .company_stars {
-        & .star {
+        .star {
+          color: $platinum;
+          font-size: 14px;
+          //color: $yellow;
           &:before {
             content: "\2605";
-            color: $yellow;
-            font-size: 14px;
           }
         }
       }

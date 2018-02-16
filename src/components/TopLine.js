@@ -5,9 +5,9 @@ import iconPlitkaNoActive from '../assets/img/icon_plitka_.png';
 import iconListActive from '../assets/img/icon_list.png';
 import iconListNoActive from '../assets/img/icon_list_.png';
 
-let switchList = {
-    backgroundImage: 'url(' + iconPlitkaNoActive + ')',
-};
+// let switchList = {
+//     backgroundImage: 'url(' + iconPlitkaNoActive + ')',
+// };
 
 class TopLine extends Component {
 
@@ -15,6 +15,7 @@ class TopLine extends Component {
 
         let imagePlitka = iconPlitkaActive;
         let imageList = iconListNoActive;
+
         if (this.props.list) {
             imagePlitka = iconPlitkaNoActive;
             imageList = iconListActive
@@ -32,7 +33,6 @@ class TopLine extends Component {
                             backgroundImage: 'url(' + imageList + ')',
                             backgroundRepeat  : 'no-repeat'
                         }}
-                        // onClick={() => {this.props.changeList({list: !this.state.list})}}
                     >
                         <a href=""> </a>
                     </div>
@@ -42,7 +42,6 @@ class TopLine extends Component {
                             backgroundImage: 'url(' + imagePlitka + ')',
                             backgroundRepeat  : 'no-repeat'
                         }}
-                        // onClick={() => {this.setState({list: !this.state.list})}}
                     >
                         <a href=""> </a>
                     </div>
