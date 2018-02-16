@@ -1,7 +1,7 @@
 {
   "name": "project_eleken_react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://peterbelzman.github.io/project_eleken_react/",
 
   "devDependencies": {
